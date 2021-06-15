@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activiy_main"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeKa"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/showText"
+        android:text="@string/app_name"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/inpText"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_label" />
+</LinearLayout>
